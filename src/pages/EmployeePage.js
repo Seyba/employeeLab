@@ -1,10 +1,10 @@
-import EmployeeList from "../components/EmployeeList"
+import Employee from "../components/Employee"
 
 const EmployeePage = (props) => {
     return(
         <div>
             <h2>Employee</h2>
-            <EmployeeList/>
+            <Employee/>
         </div>
     )
 }

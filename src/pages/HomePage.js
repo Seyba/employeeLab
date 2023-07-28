@@ -1,3 +1,4 @@
+import EmployeeList from "../components/EmployeeList"
 import Header from "../components/Header"
 import SearchBar from "../components/SearchBar"
 
@@ -7,6 +8,7 @@ const HomePage = () => {
         <div>
             <Header />
             <SearchBar/>
+            <EmployeeList/>
         </div>
     )
 }
